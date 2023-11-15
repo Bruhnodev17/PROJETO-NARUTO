@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Naruto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <video autoplay loop src="src/imagens/video naruto-shippuden.mp4">
+      <source src="src/imagens/video-naruto-shippuden.webm" type="video/'webm">
+    </video>
+    
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo-shippuden.png" alt="Logo naruto">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="naruto" data-name="Naruto Uzumaki" data-description="Um jovem destemido e corajoso, com seus poderes que são reservas gigantescas de chacra graças a seu clã, somado a Bijuu de 9 caudas, Naruto faz jus do porque o anime tem o seu nome.">
+            <img
+              src="./src/imagens/card-naruto.jpg"
+              alt="Personagem Naruto"
+            />
+          </li>
+          <li class="personagem" id="sasuke" data-name="Sasuke Uchiha" data-description=" Um jovem promissor do clã Uchiha, desertor da Aldeia de Konoha, e que desde pequeno tem o desejo de vingar-se do seu irmão Itachi que massacrou todo o seu clã sem um motivo plausível. Mas, será mesmo?">
+            <img
+              src="./src/imagens/card-sasuke.jpg"
+              alt="Personagem Sasuke"
+            />
+          </li>
+
+          <li class="personagem" id="sakura" data-name="Sakura-Haruno" data-description="Sendo uma Kunoich treinada diretamente pela 5ª Hokage Tsunade, Sakura mostra o seu valor como aprendiz, com habilidades médicas incríveis, além de ter uma força surreal em seus Taijutsus.">
+            <img
+              src="./src/imagens/card-sakura.jpg"
+              alt="Personagem Sakura"
+            />
+          </li>
+
+          <li class="personagem" id="kakashi" data-name="Kakashi Hatake" data-description="Super força, velocidade, agilidade, resistência,manipulação do relâmpago,manipualção da água,manipulação da terra,previsão e cópia de movimentos com o sharingan, conhecimento de vários jutsus (disse ter copiado 1000 jutsus,provavelmente não é verdade).">
+            <img
+              src="./src/imagens/card-kakashi.jpg"
+              alt="Personagem Kakashi"
+            />
+          </li>
+
+          <li class="personagem" id="gaara" data-name="Gaara do Deserto" data-description="Tornou-se Kazekage muito jovem, demonstrando seu valor e potencial para mudar um destino maldito que lhe foi imposto quando criança. Com suas habilidades em manipulação de areia e sua Bijuu de 1 cauda, torna-se um oponenete muito difícil para batalhas de médio e longo alcance. ">
+            <img
+              src="./src/imagens/card-gaara.jpg"
+              alt="Personagem Gaara"
+            />
+          </li>
+
+          <li class="personagem" id="itachi" data-name="Itachi Uchiha" data-description="Um prodígio em todas as suas qualificações como ninja. Responsável pelo massacre do clã Uchiha, Itachi se junta a Akatsuki e deserta de sua vila sendo roterizado como vilão. Mas com uma história bem controversa que fez com que a comunidade que assite o anime o entitule de herói.">
+            <img
+              src="./src/imagens/card-itachi.jpg"
+              alt="Personagem Itachi"
+            />
+          </li>
+
+          <li class="personagem" id="minato" data-name="Minato Namikaze" data-description="O Hokage mais jovem da Aldeia da folha, com leituras de batalhas precisamente excelentes e rápidas, o 'Relâmpago Amarelo de Konoha' se tornou um dos mais importantes personagens do anime, apesar de ter morrido bastante jovem com sua esposa, selando a Bijuu de 9 caldas em seu próprio filho.">
+            <img
+              src="./src/imagens/card-minato.jpg"
+              alt="Personagem Minato"
+            />
+          </li>
+
+          <li class="personagem" id="obito" data-name="Obito Uchiha" data-description="Pupilo de Minato, parceiro de Kakashi, Obito supostamente morre em uma missão quando jovem, sendo no futuro o personagem que mais causou reviravoltas no mundo ninja, com seu Sharingan diferenciado, no combate torna-se praticamente impossível o atingir.">
+            <img
+              src="./src/imagens/card-obito.jpg"
+              alt="Personagem Obito"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-naruto.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Naruto Uzumaki</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Um jovem destemido e corajoso, com seus poderes que são reservas gigantescas de chacra graças a seu clã, somado a Biju de 9 caudas, Naruto faz jus do porque o anime tem o nome dele.
+          </p>
+        </div>
+      </section>
+    </main>
+  
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
+
