@@ -22,13 +22,11 @@
         gap: 20px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        height: 10%;
     }
 
     .selecao-de-personagens .personagem img{
         width: 70px;
-        height: 70px;
-        border-radius: 70%;
-        border: none;
     }
 
     .personagem-selecionado .personagem-grande{
